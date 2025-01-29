@@ -1,13 +1,70 @@
-.body{
-
+/* General Styles */
+body {
+  background-color: #b0c4de; /* Light blue background */
+  text-align: auto;
+  font-family: Arial, sans-serif;
 }
-.button {
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+
+/* Button Styles */
+button {
+  background-color: #e6c8ff; /* Light purple */
+  border: 1px solid #d3a3ff; /* Slightly darker border */
+  color: #555; /* Grayish text color */
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Disabled button style */
+button:disabled {
+  background-color: #d3a3ff; /* Darker purple */
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Heading Styles */
+h1 {
+  color: #800080; /* Purple */
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  color: #b300b3; /* Dark pink/purple */
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Video Styling */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 560px;
+  height: 315px;
+}
+
+/* Text Container */
+.par_macibu_filmu {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #f0e6ff; /* Light purple */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.uztura_piramida{
+margin-left: auto;
+}
+.par_uztura_piramidu{
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #f0e6ff; /* Light purple */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
