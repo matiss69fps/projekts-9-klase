@@ -17,12 +17,7 @@ button {
   border-radius: 5px;
 }
 
-/* Disabled button style */
-button:disabled {
-  background-color: #d3a3ff; /* Darker purple */
-  color: #999;
-  cursor: not-allowed;
-}
+
 
 /* Heading Styles */
 h1 {
