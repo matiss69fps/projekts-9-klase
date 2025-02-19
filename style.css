@@ -37,29 +37,37 @@ iframe {
   display: block;
   margin: 20px auto;
   border-radius: 10px;
-  width: 560px;
-  height: 315px;
+  width: 640px;
+  height: 360px;
 }
 
 /* Text Container */
 .par_macibu_filmu {
   width: 1000px;
   margin: 20px auto;
-  background-color: #f0e6ff; /* Light purple */
+ 
   padding: 15px;
   border-radius: 10px;
-  text-align: center;
-  
+  text-align: auto;
+  color: #2F4F4F;
 }
-.uztura_piramida{
-margin-left: auto;
-}
+
 .par_uztura_piramidu{
   width: 1000px;
   margin: 20px auto;
-  background-color: #f0e6ff; /* Light purple */
+ 
   padding: 15px;
   border-radius: 10px;
-  text-align: center;
-  
+  text-align: right 10px;
+  font-size: 10.5px;
+color: #2F4F4F;
 }
+.uztura_piramida {
+  width: 400px;
+  height: 400px;
+  float: left; 
+  margin-right: 20px; 
+}
+
+
+
