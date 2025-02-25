@@ -1,73 +1,103 @@
+  /* General Styles */
+  body {
+    background-color: #b0c4de; /* Light blue background */
+    text-align: auto;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Button Styles */
+  button {
+    background-color: #e6c8ff; /* Light purple */
+    border: 1px solid #d3a3ff; /* Slightly darker border */
+    color: #555; /* Grayish text color */
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+
+  /* Heading Styles */
+  h1 {
+    color: #800080; /* Purple */
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h2 {
+    color: #b300b3; /* Dark pink/purple */
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* Video Styling */
+  iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 640px;
+    height: 360px;
+  }
+
+  /* Text Container */
+  .par_macibu_filmu {
+    width: 1000px;
+    margin: 20px auto;
+  
+    padding: 15px;
+    border-radius: 10px;
+    text-align: auto;
+    color: #2F4F4F;
+  }
+
+  .par_uztura_piramidu{
+    width: 1000px;
+    margin: 20px auto;
+  
+    padding: 15px;
+    border-radius: 10px;
+    text-align: right 10px;
+    font-size: 10.6px;
+  color: #2F4F4F;
+  }
+  .uztura_piramida {
+    width: 400px;
+    height: 400px;
+    float: left; 
+    margin-right: 20px; 
+  }
+  .Par_dietu{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #2F4F4F;
+  }
+
+
 /* General Styles */
 body {
-  background-color: #b0c4de; /* Light blue background */
-  text-align: auto;
+  background-color: #9ac5f4; /* Light blue */
   font-family: Arial, sans-serif;
+  text-align: auto;
 }
 
-/* Button Styles */
-button {
-  background-color: #e6c8ff; /* Light purple */
-  border: 1px solid #d3a3ff; /* Slightly darker border */
-  color: #555; /* Grayish text color */
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-
-
-/* Heading Styles */
-h1 {
-  color: #800080; /* Purple */
-  font-size: 22px;
-  text-align: center;
-}
-
-h2 {
-  color: #b300b3; /* Dark pink/purple */
-  font-size: 18px;
-  text-align: center;
-}
-
-/* Video Styling */
-iframe {
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  width: 640px;
-  height: 360px;
-}
-
-/* Text Container */
+/* Section Background Colors */
 .par_macibu_filmu {
+  background-color: #99dbf5; /* Lighter blue */
   width: 1000px;
   margin: 20px auto;
- 
   padding: 15px;
   border-radius: 10px;
-  text-align: auto;
   color: #2F4F4F;
 }
 
-.par_uztura_piramidu{
+.par_uztura_piramidu {
+  background-color: #a7ecee; /* Light cyan */
   width: 1000px;
-  margin: 20px auto;
- 
-  padding: 15px;
-  border-radius: 10px;
-  text-align: right 10px;
-  font-size: 10.5px;
-color: #2F4F4F;
+  margin: 20
 }
-.uztura_piramida {
-  width: 400px;
-  height: 400px;
-  float: left; 
-  margin-right: 20px; 
-}
-
-
-
