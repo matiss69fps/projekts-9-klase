@@ -33,7 +33,7 @@
   }
 
   /* Video Styling */
-  iframe {
+  .iframe {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
@@ -86,18 +86,30 @@ body {
   text-align: auto;
 }
 
-/* Section Background Colors */
-.par_macibu_filmu {
-  background-color: #99dbf5; /* Lighter blue */
-  width: 1000px;
-  margin: 20px auto;
-  padding: 15px;
-  border-radius: 10px;
-  color: #2F4F4F;
-}
 
 .par_uztura_piramidu {
   background-color: #a7ecee; /* Light cyan */
   width: 1000px;
   margin: 20
 }
+.Par_dietu {
+  background-color: #a7ecee; /* Light yellow */
+  width: 1000px;
+  margin: 20px auto;
+ 
+}
+.footer{
+  
+    background-color: #ffeebb; /* Light yellow */
+    width: 1000px;
+    margin: 20px auto;
+    
+}
+.Berns_ar_bumbu_skrien {
+  display: block;
+  margin: 20px auto; /* Centers the image horizontally */
+  width: 800px;
+  height: 600px;
+}
+
+
