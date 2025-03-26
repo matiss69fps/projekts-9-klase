@@ -33,13 +33,14 @@
   }
 
   /* Video Styling */
-  .iframe {
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    width: 640px;
-    height: 360px;
-  }
+iframe {
+  display: block;
+  margin: 20px auto; /* Center horizontally */
+  border-radius: 10px;
+  width: 640px;
+  height: 360px;
+}
+
 
   /* Text Container */
   .par_macibu_filmu {
@@ -80,7 +81,7 @@
 
 
 /* General Styles */
-body {
+.body {
   background-color: #9ac5f4; /* Light blue */
   font-family: Arial, sans-serif;
   text-align: auto;
@@ -108,8 +109,16 @@ body {
 .Berns_ar_bumbu_skrien {
   display: block;
   margin: 20px auto; /* Centers the image horizontally */
-  width: 800px;
-  height: 600px;
+  width: 900px;
+  height: 700px;
 }
 
-
+.eksperte_par_sportu_berniem{
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #2F4F4F;
+}
