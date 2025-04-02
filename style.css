@@ -122,3 +122,33 @@ iframe {
   font-size: 14px;
   color: #2F4F4F;
 }
+.par_tehnologijam_un_sportu{
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 14px;
+  color: #2F4F4F;
+}
+.bilde_ar_riteniem{
+  display: block;
+  margin: 20px auto; /* Centers the image horizontally */
+  
+  float: left;
+}
+.berns_augot{
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #2F4F4F;
+}
+.skrienosi_berni{
+  display: block;
+  margin: 10px right; /* Centers the image horizontally */
+  
+  float: right;
+}
