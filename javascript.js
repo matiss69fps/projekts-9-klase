@@ -1,0 +1,1 @@
+window.alert('Esiet sveicināti manā mājaslapā!');
