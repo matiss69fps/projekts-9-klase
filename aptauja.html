@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Veselības anketa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <h1>Veselības un ieradumu anketa</h1>
+  <div class="visa lapa">
+    <button type="button" onclick="window.location.href='sports.html'">Par sportu</button>
+    <button type="button" onclick="window.location.href='index.html'">Par Labu uzturu</button>
+    <button type="button" onclick="window.location.href='aptauja.html'">Aptauja</button>
+    <button type="button" onclick="window.location.href='kalkulators.html'">Kalkulators kuru var izmantot skaitot kalorijas</button>
+  </div>
+  
+  <form id="quizForm">
+  
+    <div class="question">
+      <p>1. Vai jums liekas, ka jums vai jūsu bērnam ir problēmas ar lieko svaru?</p>
+      <button id="q1a1" type="button" onclick="selectAnswer(0, 'Jā')">Jā</button>
+      <button id="q1a2" type="button" onclick="selectAnswer(0, 'Nē')">Nē</button>
+      <button id="q1a3" type="button" onclick="selectAnswer(0, 'Nezinu')">Nezinu</button>
+    </div>
+  
+    <div class="question">
+      <p>2. Vai jums vai jūsu bērnam ir problēmas ar sociālajām prasmēm?</p>
+      <button id="q2a1" type="button" onclick="selectAnswer(1, 'Ļoti labi')">Ļoti labi</button>
+      <button id="q2a2" type="button" onclick="selectAnswer(1, 'Labi')">Labi</button>
+      <button id="q2a3" type="button" onclick="selectAnswer(1, 'Daļēji')">Daļēji</button>
+      <button id="q2a4" type="button" onclick="selectAnswer(1, 'Slikti')">Slikti</button>
+      <button id="q2a5" type="button" onclick="selectAnswer(1, 'Ļoti slikti')">Ļoti slikti</button>
+    </div>
+  
+    <div class="question">
+      <p>3. Vai Jūs vai jūsu bērns nodarbojas ar sportu?</p>
+      <button id="q3a1" type="button" onclick="selectAnswer(2, 'Katru dienu')">Katru dienu</button>
+      <button id="q3a2" type="button" onclick="selectAnswer(2, '3–4 reizes nedēļā')">3–4 reizes nedēļā</button>
+      <button id="q3a3" type="button" onclick="selectAnswer(2, '1–2 reizes nedēļā')">1–2 reizes nedēļā</button>
+      <button id="q3a4" type="button" onclick="selectAnswer(2, 'Nē, bet vēlas sākt')">Nē, bet vēlas sākt</button>
+      <button id="q3a5" type="button" onclick="selectAnswer(2, 'Nē')">Nē</button>
+    </div>
+  
+    <div class="question">
+      <p>4. Vai jūs vai jūsu bērns ievēro veselīgu uzturu?</p>
+      <button id="q4a1" type="button" onclick="selectAnswer(3, 'Jā, katru dienu')">Jā, katru dienu</button>
+      <button id="q4a2" type="button" onclick="selectAnswer(3, 'Ir viena cheat diena')">Ir viena cheat diena</button>
+      <button id="q4a3" type="button" onclick="selectAnswer(3, 'Ir divas cheat dienas')">Ir divas cheat dienas</button>
+      <button id="q4a4" type="button" onclick="selectAnswer(3, 'Nē')">Nē</button>
+    </div>
+  
+    <div class="question">
+      <p>5. Vai Jums noderēja mana veidotā mājas lapa?</p>
+      <button id="q5a1" type="button" onclick="selectAnswer(4, 'Jā')">Jā</button>
+      <button id="q5a2" type="button" onclick="selectAnswer(4, 'Daļēji')">Daļēji</button>
+      <button id="q5a3" type="button" onclick="selectAnswer(4, 'Nē')">Nē</button>
+      <button id="q5a4" type="button" onclick="selectAnswer(4, 'Visu jau zināju')">Visu jau zināju</button>
+    </div>
+  
+    <div class="question">
+      <p>6. Variet dot komentārus uzlabojumiem šai mājas lapai:</p>
+      <textarea id="commentBox" placeholder="Rakstiet šeit..."></textarea>
+    </div>
+  
+    <button id="submitBtn" type="button" onclick="submitForm()">Iesniegt anketu</button>
+   
+  </form>
+  
+  <p id="thanksMessage" style="display:none;">Paldies par aizpildīšanu!</p>
+  
+  <script src="javascript.js"></script>
+  
+  </body>
+  </html>

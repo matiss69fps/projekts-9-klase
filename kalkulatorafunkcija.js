@@ -55,3 +55,4 @@ function poga1(){
       console.log(izteiksme)
       
     }
+    
